@@ -1,0 +1,198 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styling */
+  body {
+    background-color:rgb(149, 126, 126);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color:lightblue;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px 20px;
+    margin: 20px 0;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color:lightblue;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .hero {
+    background-image: url('bg4.avif');
+    background-size:cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #003366;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin-bottom: 12%;
+  }
+  
+  /******About********/
+  .about-section {
+    display: flex;
+    align-items: center; 
+    background-color: #f4f4f4;
+    border:2px solid black;
+  }
+  
+  .about-content {
+    flex: 1; 
+    padding: 50px;
+    width: 80%;
+    margin: auto;
+   
+  }
+  
+  .about-image {
+    flex: 1; 
+  }
+  
+  .about-image img {
+    border-radius: 50%;
+    width: 32%; 
+    height: auto; 
+    display: inline-flex; 
+  }
+  
+  .container {
+    flex: 1; 
+    padding: 50px;
+    width: 80%;
+    margin: auto;
+  }
+  
+  h1, h2 {
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+
+ 
+/*********************/
+
+.project {
+  display: flex;
+  margin-bottom: 20px; 
+  padding: 50px 0;
+}
+.projects{
+  display: flex;
+  background-color: #f4f4f4;
+  border: 2px solid black;
+}
+.project img {
+  width: 200px; /* Set a fixed width or adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 20px; /* Space between image and details */
+  display: block;
+}
+
+.project-details {
+  flex: 1; /* Takes remaining space */
+}
+
+.project-details h3 {
+  margin-top: 0;
+}
+
+.btn {
+  padding: 8px 16px;
+  background-color: lightgray;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  /* Additional styling for the button */
+}
+
+
+
+
+/************/
+/* Basic styles, adjust as needed */
+
+.contact-section {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  flex-direction: row;
+
+}
+
+.contact-content {
+  flex: 1; 
+    padding: 50px;
+    width: 80%;
+    margin: auto;
+
+}
+
+.contact-info {
+  flex:1;
+  margin-left: 10%;
+  margin-top: 7%;
+}
+
+.contact-form {
+  
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn2{
+  margin-right: 50%;
+  margin-bottom: 5%;
+  padding: 10px 20px;
+  background-color: lightgray;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
